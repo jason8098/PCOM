@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PODCAST ON MARS</title>
+		<meta charset="utf-8" />
+		<script src="assets/js/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+		<link rel="stylesheet" href="assets/css/star.css">
+
+	</head>
+	<body id="bd" class="is-preload">
+		
+				
+
+		<!-- Wrapper -->
+		
+			<div id="wrapper">
+				
+				
+				
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="logo">
+							<img class="logo" style="margin-left:-1px; margin-top:-1px;" src="assets/images/logo.png" alt="" />
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>PODCAST ON MARS</h1>
+								<p>Welcome to PODCAST ON MARS OFFICIAL WEBSITE</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">ABOUT US</a></li>
+								<li><a href="#notices">NOTICES</a></li>
+								<li><a href="#join">JOIN</a></li>
+								<li><a href="#contact">CONTACT</a></li>
+								<li><a href="#settings">SETTINGS</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				 	<div id="main" style="overflow-y:hidden;">
+
+						<article id="about" style="overflow-y:hidden;">
+							<h2  class="major">ABOUT US</h2>
+							<h2>1. What is this?</h2>
+							<span class="image main"><img src="assets/images/int1.png" alt="" /></span>
+							<p><b>PODCAST ON MARS</b> is a <b>Discord server</b> that <b>anyone</b> can join.</h2>
+							<h2>2. What can i do there?</h2>
+							<span class="image main"><img src="assets/images/int2.jpg" alt="" /></span>
+							<p>You can just come and hang out. You can <b>listen to music</b>, watch a <b>movie</b>, do <b>podcasting</b>, <b>talk with others</b> and post some <b>memes</b> or <b>your story.</b><br/>You can even <b>play games</b> with each other.</p>
+							<h2>3. Various roles</h2>
+							<span class="image main"><img src="assets/images/int4.png" alt="" /></span>
+							<p>Roles could be granted to any member (All are podcasters and member of abandon shack basically). And above other roles can be granted depending on your interests. </p>
+							<h2>4. how can i join to the server?</h2>
+							<span class="image main"><img src="assets/images/int3.png" alt="" /></span>
+							<p>If you got a <b>code</b> from the moderator, You can click <b>"JOIN"</b> button on the main page.<br/><br/> <b>Feel free to join our cool server!</b></p>
+						</article>
+
+						<!-- Notices -->
+						<article id="notices">
+							
+							<h2 class="major">NOTICES / ANNOUNCEMENTS</h2>
+							<div class="noti_threads">
+								<h2>Server Restoration Complete!</h2>
+								<h3>2022/01/30</h3>
+								<p>YAYAYYAYAYAY!!! I finally restored my server successfully. YEEEEEEEEEEEET!!!<br>
+									It took really long time(about 4 weeks) to do but somehow I managed to fix all problems.<br>
+									Anyways, there is few small changes in this website : <br>
+									<br>
+									ㅤ1. Changed LOGO.<br>
+									ㅤ2. Few animations (Stars, Moving Background, Constellation - Only PC)<br>
+									ㅤ3. Added Contact Details of Me.<br>
+									ㅤ4. Few Bug Fixes<br>
+								<br>
+								Also, unfortunatly the minecraft server is unavailable for some reason. 
+								<br>So I will let you know when it is available.
+								<br><br>
+								I hope ya'al doing well and have a great day!
+								</p>
+							</div>
+							<br>
+							<div class="noti_threads">
+								<h2>Test Minecraft Server is On!</h2>
+								<h3>2021/12/29</h3>
+								<p>We are creating a Minecraft server!<br>
+								There will be some <b>Mini Games, PVP, Parkours</b> etc that you can come and enjoy!<br>
+								It is currently <b>in development</b>, but you can <b>participate</b> to help creating the Server!<br>
+								In order to join to the server, you should be a <b>member of PODCAST ON MARS.</b><br>
+								And Write your minecraft nickname at the dedicated channel. <br>
+								Check announcements in the discord for more.</p>
+							</div>
+							<br>
+							<div class="noti_threads">
+								<h2>In case you need some memes...</h2>
+								<h3>2021/12/29</h3>
+								<p>Sometimes, You feel lonely, depressed and sad.<br>
+								I understand. Because of Covid-19, We cannnot behave normally, can't go outside without mask. <br>
+								It's really annoying. But It's ok. As long as we can laugh with memes!<br>
+								So I made something called "Daily Random Memes for U" Service!<br>
+								It gives you the random memes that will definitely make U laugh!<br>
+								Go to <a href="./memes">https://pcom.cf/memes</a> to check it out!
+							</p>
+							</div>
+							<br>
+							<div class="noti_threads">
+								<h2>Server Migration Completed!</h2>
+								<h3>2021/11/27</h3>
+								<p>Thank you for waiting everyone!<br>
+								We have migrated the web server from Korea server to Singapore server.<br>
+								Now the connection speed and performance is increased by 80%!<br>
+								We are also planning to host an Minecraft server later.<br>
+								Thank you.</p>
+							</div>
+							<br>
+							
+						</article>
+						<article id="join" >
+							
+							<h2 class="major">JOIN</h2>
+							<label style=" font-weight:bold;">Please enter the code. (Code can be given from the moderator of the discord server.)</label>
+							<label  id="message"></label>
+
+							<form id="joinf" method="POST" style="text-align: right;" action="regi.php">
+								<input type="text" name="code" required/>
+								<br>
+								<button type="submit">SUBMIT</button>
+								<button type="button" onclick="location='#'">CANCLE</button>
+							
+							</form>
+							<script>
+								$(document).ready(function () {
+									$('#joinf').on('submit', function(e) {
+										e.preventDefault();
+										$.ajax({
+											url : $(this).attr('action') || window.location.pathname,
+											type: "POST",
+											data: $(this).serialize(),
+											success: function (data) {
+												if(data.includes("no")){
+													$("#message").html("Wrong Code!");
+													document.getElementById("message").style.cssText = "font-weight:bold; color:#ff3232; font-size:1em;";
+													
+												}
+												if(data.includes("ok")){
+													location="#";
+													location.href=data.replace('ok/','');;
+												}
+											},
+											error: function (jXHR, textStatus, errorThrown) {
+												alert(errorThrown);
+											}
+										});
+									});
+								});
+							</script>
+					</article>
+					<article id="contact">
+							
+						<h2 class="major">CONTACT</h2>
+						<h3>Contact to Developer
+							<br><br>
+							If you have any suggestion or bugs feel free to contact me!
+						</h3>
+						<p>Name : KIM<br>
+							Email : <a href="mailto: ddd07764@gmail.com"> ddd07764@gmail.com</a><br>
+							Discord : YangBaeChu#0669<br>
+						</p>
+					</article>
+					<article id="settings">
+							
+						<h2 class="major">SETTINGS</h2>
+						<h3>You can turn on/off animations here.
+							<br>
+							If you feel that it is laggy, you can adjust it
+						</h3>
+						<h3>Enable Background Movement</h3>
+						<input class="setting_checkbox" type="checkbox" checked>
+						<br><br>
+						<h3>Enable Stars</h3>
+						<input class="setting_checkbox" type="checkbox" checked>
+						
+						</p>
+					</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p style="font-size:0.7em" class="copyright">&copy; KIM. ALL RIGHTS RESERVED. DISCORD SERVER BY JOSHUA THOTAWATTAGE.</p>
+					</footer>
+				
+			</div>
+		<!-- BG -->
+			<div id="bg" class="backg"></div>
+			<div id="starb" class="starb"></div>
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+			</div>
+		<!-- Scripts -->
+			<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+			<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+			<script type="text/javascript" src="assets/js/demo.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script  src="assets/js/star.js"></script>
+	</body>
+</html>
